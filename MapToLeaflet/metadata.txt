@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=QGIS To Leaflet & Dashboard
+qgisMinimumVersion=2.0
+description=This plugin will transform a static QGIS map to a proper leaflet web map
+version=0.1
+author=Brian Duffy
+email=brian.duffy@soprasteria.com
+
+about=Very early build of a plugin which will be used to quickly export a QGIS map to Leaflet JS, with greater customisation than the current plugin
+
+tracker=https://github.com/brianduffysop/LeafletQGIS
+repository=https://github.com/brianduffysop/LeafletQGIS
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=Leaflet, Webmap, dashboard
+
+homepage=https://github.com/brianduffysop/
+category=Web
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
